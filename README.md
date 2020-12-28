@@ -1,4 +1,3 @@
-# popup_modal
-A simple modal popup example
+# Popup Modal
 
-Based on a 3 year old YouTube video from Tranversy Media.
+A simple modal popup example. Based on a 3 year old [YouTube video](https://www.youtube.com/watch?v=6ophW7Ask_0) from Traversy Media.

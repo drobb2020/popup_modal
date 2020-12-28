@@ -10,7 +10,7 @@ const closeBtn = document.querySelector(".closeBtn");
 //Event listeners
 modalBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
-window.addEventListener("click", clickOutside);
+window.addEventListener("click", outsideClick);
 
 // Open modal function
 function openModal() {
@@ -19,7 +19,7 @@ function openModal() {
 function closeModal() {
   modal.style.display = "none";
 }
-function clickOutside(e) {
+function outsideClick(e) {
   if (e.target == modal) {
     modal.style.display = "none";
   }
